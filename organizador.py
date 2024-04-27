@@ -16,3 +16,4 @@ for arquivo in lista_arquivos:
     para = os.path.join(os.getcwd(), pasta_destino, arquivo)
     if os.path.exists(de):
         os.replace(de,para)
+    print("Organização do arquivo concluido")
